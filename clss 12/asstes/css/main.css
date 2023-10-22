@@ -1,0 +1,341 @@
+body {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color: rgba(250, 248, 245, 0.74);
+}
+
+
+/* # Hero Section */
+#hero {
+    position: relative;
+    background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHx8fDE2OTY5NzkzMDB8MA&ixlib=rb-4.0.3);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  #hero .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.4;
+  }
+  
+  #hero .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  /* navbar section*/
+.navbar-nav{
+    justify-content: end;
+    width: 100%;
+}
+
+
+/* client section*/
+#client {
+    position: relative;
+    height: 100%;
+}
+
+#client {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #cc5050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 30px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.swiper-slide h4 p {
+    margin-top: 0;
+    display: block;
+
+}
+
+/* event css*/
+.event-img img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/*about section*/
+#about .container{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: auto;
+    padding: 20px;
+}
+
+#about .text-about{
+    color: rgb(18, 19, 18);
+}
+
+#about .text-about p{
+    color: rgb(89, 100, 122);
+    font-size: smaller;
+}
+
+#about .row img{
+    border-radius: 10px;
+}
+
+/* Facts */
+#facts {
+    position: relative;
+    background-image: url(https://bootstrapmade.com/demo/templates/DevFolio/assets/img/counters-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .facts .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(141, 121, 170);
+    opacity: 0.4;
+
+  }
+  .facts .content {
+      padding: 8rem 0;
+  }
+  .facts .icon i {
+      font-size: 4rem;
+  }
+  
+ /*skill section*/
+#skill .container{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+#skill .text p{
+    color: rgb(89, 100, 122);
+    font-size: smaller;
+}
+
+/*portfolio section*/
+#card .container{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+#card .portfolio-text p{
+    color: rgb(89, 100, 122);
+    font-size: smaller;
+}
+
+.PORTFOLIO .img-container{
+    overflow: hidden;
+}
+
+.PORTFOLIO .card img{
+    transition: transform 0.4s;
+}
+
+.PORTFOLIO .card:hover img{
+   transform: scale(1.5);
+   cursor: pointer;
+} 
+
+.PORTFOLIO .card-body a{
+    color: rgb(15, 15, 15);
+    background-color: green;
+}
+
+.PORTFOLIO .card:hover a{
+    color: antiquewhite;
+    background-color: rgb(30, 130, 223);
+}
+
+/*retunt section*/
+#retunt .container{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+#retunt .retunt-text p{
+    color:rgb(89, 100, 122);
+    font-size: smaller;
+}
+
+.row .info-img{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/*resume section*/
+#resume .container{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+#resume .text-resume p{
+    color: rgb(89, 100, 122);
+    font-size: smaller;
+}
+
+#resume .row{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    margin-top: 10px;   
+    padding-top: 20px; 
+}
+
+/*starters section*/
+#menu .container{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(213 214 217);
+}
+
+#menu .menu-text p{
+    color: rgb(89, 100, 122);
+    font-size: smaller;
+}
+
+.menu .menu-img{
+    overflow: hidden;
+}
+
+.menu .menu-img img{
+    transition: transform 0.4s;
+}
+
+.menu .menu-img:hover img{
+    transform: scale(1.4);
+   cursor: pointer;
+}
+
+
+/*Event section*/
+#Event .container{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#Event .event-text p{
+    color: rgb(89, 100, 122);
+    font-size: smaller;
+}
+
+.row .event-img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.Event .event-img{
+    overflow: hidden;
+}
+
+.Event .event-img img{
+    transition: transform 0.2;
+}
+.Event .event-img:hover img{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+/*Services section*/
+#services .container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}
+
+.services .row .icon {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background: white;
+    border: 5px solid #0078ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services .row p{
+    padding: 0 auto;
+  }
+
+  .services .icon:hover {
+    background: #0078ff;
+    color: white;
+    border: 5px solid white;
+  }
+
+#services .text-content p{
+    color: rgb(89, 100, 122);
+    font-size: smaller;
+}
+
+#services .row i{
+    font-size: 30px;
+}
+
+/*contact section*/
+#contact .container{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.row .form-group .button{
+    background-color: green;
+    color: black;
+    border-radius: 5px;
+}
+
+/*footer section*/
+#footer-top ul{
+    list-style-type: none;
+    
+}
+
+.footer-top ul li a{
+    text-decoration: auto;
+    color: #b46956;
+}
+
+.footer-top span{
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.footer-top span:hover i{
+    color: gold;
+}

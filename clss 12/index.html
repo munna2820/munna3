@@ -1,0 +1,860 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--main css link-->
+    <link rel="stylesheet" href="asstes/css/main.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container bg-primary">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="hero">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1 class="fs-1">i am munna web developer</h1>
+                <span class="fs-2" id="typed"></span>
+            </div>
+        </div>
+    </header>
+
+    <!--about section-->
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="text-about text-center">
+                    <h1>ABOUT</h1>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint
+                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                        Quia
+                        fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+                <div class="row pt-2">
+                    <div class="col-12 col-lg-4 pt-5">
+                        <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <img src="asstes/image/profile-1.jpg" alt="" width="340px" height="330px">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8">
+                        <h2>UI/UX Designer & Web Developer.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="content">
+
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <p><i class="bi bi-arrow-right-short"></i><strong>Birthday:</strong><span>1 May
+                                            1995</span></p>
+                                    <p><i class="bi bi-arrow-right-short"></i><strong>
+                                            Website:</strong><span>www.example.com</span></p>
+                                    <p><i class="bi bi-arrow-right-short"></i><strong>Phone:</strong><span>+123 456
+                                            7890</span></p>
+                                    <p><i
+                                            class="bi bi-arrow-right-short"></i><strong>City:</strong><span>Bangladesh</span>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <p><i class="bi bi-arrow-right-short"></i><strong>Age:</strong><span>25</span></p>
+                                    <p><i
+                                            class="bi bi-arrow-right-short"></i><strong>Degree:</strong><span>Master</span>
+                                    </p>
+                                    <p><i
+                                            class="bi bi-arrow-right-short"></i><strong>phEmail:</strong><span>munna@example.com</span>
+                                    </p>
+                                    <p><i
+                                            class="bi bi-arrow-right-short"></i><strong>Freelancer:</strong><span>Aavailable</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima facere laudantium quidem
+                                perspiciatis sapiente rerum eligendi saepe placeat maiores odio? Dolorum omnis non
+                                aliquam
+                                quos. Commodi atque quasi, numquam possimus doloribus nostrum veniam earum pariatur aut
+                                alias fugiat ut quae, accusantium debitis distinctio dolor ut ducimus eos
+                                fugiat omnis eius tempore incidunt ipsa perspiciatis! Temporibus libero rem quasi eaque
+                                omnis exercitationem recusandae repudiandae, eius ea voluptas repellat velit ad optio,
+                                laudantium quos explicabo provident cumque</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--facts section-->
+        <section id="facts" class="facts">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                          <div class="card text-center">
+                            <span class="icon"><i class="bi bi-check2-circle"></i></span>
+                            <h3 class="counter">5000+</h3>
+                            <p>Students</p>
+                          </div>
+                        </div>
+            
+                        <div class="col-12 col-sm-6 col-lg-3">
+                          <div class="card text-center">
+                            <span class="icon"><i class="bi bi-check2-circle"></i></span>
+                            <h3 class="counter">5520+</h3>
+                            <p>Students</p>
+                          </div>
+                        </div>
+            
+            
+                        <div class="col-12 col-sm-6 col-lg-3">
+                          <div class="card text-center">
+                            <span class="icon"><i class="bi bi-check2-circle"></i></span>
+                            <h3 class="counter">6530+</h3>
+                            <p>Students</p>
+                          </div>
+                        </div>
+            
+                        <div class="col-12 col-sm-6 col-lg-3">
+                          <div class="card text-center">
+                            <span class="icon"><i class="bi bi-check2-circle"></i></span>
+                            <h3 class="counter">3254+</h3>
+                            <p>Students</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Skill-->
+        <section id="skill">
+            <div class="container py-4">
+                <div class="text text-center">
+                    <h1>SKILL</h1>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+                <div class="content">
+                    <div class="row py-2">
+                        <div class="col-12 col-lg-6">
+                            <div data-aos="zoom-in-right">
+                                <div class="progress mb-2">
+                                    <span class="skill">HTML</span>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 80%">80%</div>
+                                </div>
+                                <div class="progress mb-2">
+                                    <span class="skill">CSS</span>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 70%">70%</div>
+                                </div>
+                                <div class="progress mb-2">
+                                    <span class="skill">JAVASCRIPT</span>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 50%">50%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div data-aos="zoom-in-right">
+                                <div class="progress mb-2">
+                                    <span class="skill">PHP</span>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 60%">60%</div>
+                                </div>
+                                <div class="progress mb-2">
+                                    <span class="skill">WORDPRESS</span>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 40%">40%</div>
+                                </div>
+                                <div class="progress mb-2">
+                                    <span class="skill">PHOTOSHOP</span>
+                                </div>
+                                <div class="progress" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 45%">45%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--card section-->
+        <section id="PORTFOLIO" class="PORTFOLIO">
+            <div class="container py-5">
+                <div class="portfolio-text text-center">
+                    <h1>All Services</h1>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="asstes/image/camera.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">this is camera</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="asstes/image/camera.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">this is camera</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="asstes/image/camera.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">this is camera</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="asstes/image/camera.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">this is camera</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="asstes/image/camera.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">this is camera</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="asstes/image/camera.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">this is camera</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="asstes/image/camera.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">this is camera</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="asstes/image/camera.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">this is camera</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="asstes/image/camera.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">this is camera</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--retunt star-->
+        <section id="retunt" class="retunt">
+            <div class="container py-5">
+                <div class="retunt-text text-center">
+                    <h1>PARTY</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur</p>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-3">
+                        <div data-aos="flip-left">
+                            <div class="info-img" style="background-image: url(asstes/image/cup.jpg);">
+                                <h4 style="color: white;">Birthday party</h4>
+                                <h5 style="color: white;">$36</h5>
+                                <p style="color:green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cumque?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div data-aos="flip-right">
+                            <div class="info-img" style="background-image: url(asstes/image/cup.jpg);">
+                                <h4 style="color: white;">Private party</h4>
+                                <h5 style="color: white;">$36</h5>
+                                <p style="color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cumque?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div data-aos="flip-up">
+                            <div class="info-img" style="background-image: url(asstes/image/cup.jpg);">
+                                <h4 style="color: white;">Custom party</h4>
+                                <h5 style="color: white;">$36</h5>
+                                <p style="color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cumque?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div data-aos="flip-down">
+                            <div class="info-img" style="background-image: url(asstes/image/cup.jpg);">
+                                <h4 style="color: white;">Birthday party</h4>
+                                <h5 style="color: white;">$36</h5>
+                                <p style="color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cumque?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--resume section-->
+        <section id="resume" class="resume">
+            <div class="container py-5">
+                <div class="text-resume text-center">
+                    <h1>RESUME</h1>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+                <div class="row" data-aos="zoom-out-up">
+                    <div class="col-12 col-lg-6">
+                        <div class="resume-item">
+                        <div class="resume-area">
+                            <h3>Sumary</h3>
+                                <h5>BRANDON JOHNSON</h5>
+                                <p>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
+                                    developing user-centered digital/print marketing material from initial concept to final,
+                                    polished deliverable.</p>
+                                <li><span>Portland par 127,Orlando, FL</span></li>
+                                <li><span>(123) 456-7891</span></li>
+                                <li><span>alice.barkley@example.com</span></li>
+                        </div><br>
+                        <div class="resume-area">
+                            <h3>Education</h3>
+                            <h5>MASTER OF FINE ARTS & GRAPHIC DESIGN</h5>
+                            <a>2015 - 2016</a>
+                            <p>Rochester Institute of Technology, Rochester, NY
+
+                                Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
+                                voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                        </div><br>
+                        <div class="resume-area">
+                            <h5>BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h5>
+                            <a>2010 - 2014</a>
+                            <p>Rochester Institute of Technology, Rochester, NY
+
+                                Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius
+                                vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
+                                consequatur neque etlon sader mart dila</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="resume-area">
+                            <h3>Professional Experience</h3>
+                            <h5>SENIOR GRAPHIC DESIGN SPECIALIST</h5>
+                            <a>2019 - Present</a>
+                            <li><span>Lead in the design, development, and implementation of the graphic, layout, and
+                                    production communication materials</span></li>
+                            <li><span>Delegate tasks to the 7 members of the design team and provide counsel on all
+                                    aspects
+                                    of the project.</span></li>
+                            <li><span>Supervise the assessment of all graphic materials in order to ensure quality and
+                                    accuracy of the design</span></li>
+                            <li><span>Oversee the efficient use of production project budgets ranging from $2,000 -
+                                    $25,000</span></li>
+                        </div><br>
+                        <div class="resume-area">
+                            <h5>GRAPHIC DESIGN SPECIALIST</h5>
+                            <a>2017 - 2018</a>
+                            <p>Stepping Stone Advertising, New York, NY</p>
+                            <li><span>Developed numerous marketing programs (logos, brochures,infographics,
+                                    presentations, and advertisements).</span></li>
+                            <li><span>Managed up to 5 projects or tasks at a given time while under pressure</span></li>
+                            <li><span>Recommended and consulted with clients on the most appropriate graphic
+                                    design</span></li>
+                            <li><span>Created 4+ design presentations and proposals a month for clients and account
+                                    managers</span></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--starters section-->
+        <section id="menu" class="menu">
+            <div class="container py-5">
+                <div class="menu-text text-center">
+                    <h1>Starters</h1>
+                    <a>Menu</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus debitis illo harum laborum itaque
+                        aliquid enim quos recusandae, ab ipsa!</p>
+                </div>
+                <div class="row text-center g-4">
+                    <div class="col-12 col-lg-4">
+                        <div class="menu-img" data-aos="zoom-in">
+                            <img src="asstes/image/photo.jpg" alt="" width="350px" height="350px">
+                        </div>
+                        <h4>Magnam Tiste</h4>
+                        <a>Lorem, deren, trataro, filede, nerada</a>
+                        <h3 class="price">$5.95</h3>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="menu-img" data-aos="zoom-in">
+                            <img src="asstes/image/photo.jpg" alt="" width="350px" height="350px">
+                        </div>
+                        <h4>Magnam Tiste</h4>
+                        <a>Lorem, deren, trataro, filede, nerada</a>
+                        <h3 class="price">$5.95</h3>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="menu-img" data-aos="zoom-in">
+                            <img src="asstes/image/photo.jpg" alt="" width="350px" height="350px">
+                        </div>
+                        <h4>Magnam Tiste</h4>
+                        <a>Lorem, deren, trataro, filede, nerada</a>
+                        <h3 class="price">$5.95</h3>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="menu-img" data-aos="zoom-in">
+                            <img src="asstes/image/photo.jpg" alt="" width="350px" height="350px">
+                        </div>
+                        <h4>Magnam Tiste</h4>
+                        <a>Lorem, deren, trataro, filede, nerada</a>
+                        <h3 class="price">$5.95</h3>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="menu-img" data-aos="zoom-in">
+                            <img src="asstes/image/photo.jpg" alt="" width="350px" height="350px">
+                        </div>
+                        <h4>Magnam Tiste</h4>
+                        <a>Lorem, deren, trataro, filede, nerada</a>
+                        <h3 class="price">$5.95</h3>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="menu-img" data-aos="zoom-in">
+                            <img src="asstes/image/photo.jpg" alt="" width="350px" height="350px">
+                        </div>
+                        <h4>Magnam Tiste</h4>
+                        <a>Lorem, deren, trataro, filede, nerada</a>
+                        <h3 class="price">$5.95</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--event-->
+        <section id="Event" class="Event">
+            <div class="container py-5">
+                <div class="event-text text-center">
+                    <h2>Share Your Moments In Our Restaurant</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, asperiores!</p>
+                </div>
+                <div class="row py-3 text-center">
+                    <div class="col-12 col-lg-4">
+                        <div data-aos="fade-right">
+                            <div class="event-img">
+                                <img src="asstes/image/cup.jpg" alt="">
+                                <h5>Happy Birthday</h5>
+                                <h4>$500</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, adipisci?Lorem ipsum
+                                    dolor sit
+                                    amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div data-aos="fade-down">
+                            <div class="event-img">
+                                <img src="asstes/image/cup.jpg" alt="">
+                                <h5>Happy Birthday</h5>
+                                <h4>$500</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, adipisci?Lorem ipsum
+                                    dolor sit
+                                    amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div data-aos="fade-up">
+                            <div class="event-img">
+                                <img src="asstes/image/cup.jpg" alt="">
+                                <h5>Happy Birthday</h5>
+                                <h4>$500</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, adipisci?Lorem ipsum
+                                    dolor sit
+                                    amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Service section-->
+        <section id="services" class="services">
+            <div class="container py-5">
+                <div class="text-content text-center">
+                    <h1>SERVICES</h1>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem numquam reiciendis earum vel
+                        magni voluptas ea at animi. Asperiores tempora velit eos suscipit laudantium eligendi architecto
+                        libero itaque dolor id quasi voluptates minima inventore explicabo a, natus pariatur. Voluptates
+                        tempore dolor impedit magni atque at quia velit, saepe officia perspiciatis.</P>
+                </div>
+                <div class="row text-center py-5 g-4">
+                    <div class="col-12 col-lg-4">
+                        <div class="card" data-aos="fade-right">
+                            <span class="icon"><i class="bi bi-binoculars"></i></span>
+                            <h3>Magni Dolores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente repellat,
+                                quibusdam
+                                earum asperiores accusantium voluptas modi incidunt voluptates cumque?</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card" data-aos="zoom-in">
+                            <span class="icon"><i class="bi bi-binoculars"></i></span>
+                            <h3>Magni Dolores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente repellat,
+                                quibusdam
+                                earum asperiores accusantium voluptas modi incidunt voluptates cumque?</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card" data-aos="zoom-in-up">
+                            <span class="icon"><i class="bi bi-binoculars"></i></span>
+                            <h3>Magni Dolores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente repellat,
+                                quibusdam
+                                earum asperiores accusantium voluptas modi incidunt voluptates cumque?</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card" data-aos="zoom-in-down">
+                            <span class="icon"><i class="bi bi-binoculars"></i></span>
+                            <h3>Magni Dolores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente repellat,
+                                quibusdam
+                                earum asperiores accusantium voluptas modi incidunt voluptates cumque?</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card" data-aos="zoom-in-left">
+                            <span class="icon"><i class="bi bi-binoculars"></i></span>
+                            <h3>Magni Dolores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente repellat,
+                                quibusdam
+                                earum asperiores accusantium voluptas modi incidunt voluptates cumque?</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="card" data-aos="zoom-out">
+                            <span class="icon"><i class="bi bi-binoculars"></i></span>
+                            <h3>Magni Dolores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente repellat,
+                                quibusdam
+                                earum asperiores accusantium voluptas modi incidunt voluptates cumque?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--swiper section-->
+        <section id="client">
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide py-5 d-block text-center">
+                            <img src="asstes/image/profile-1.jpg" alt="">
+                            <h4>Md Munna Mia</h4>
+                            <p>web developer</p>
+                        </div>
+                        <div class="swiper-slide py-5 d-block text-center">
+                            <img src="asstes/image/profile-1.jpg" alt="">
+                            <h4>Md Munna Mia</h4>
+                            <p>web developer</p>
+                        </div>
+                        <div class="swiper-slide py-5 d-block text-center">
+                            <img src="asstes/image/profile-1.jpg" alt="">
+                            <h4>Md Munna Mia</h4>
+                            <p>web developer</p>
+                        </div>
+                        <div class="swiper-slide py-5 d-block text-center">
+                            <img src="asstes/image/profile-1.jpg" alt="">
+                            <h4>Md Munna Mia</h4>
+                            <p>web developer</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--contact-->
+        <section id="contact" class="contact">
+            <div class="container py-5">
+                <div class="text-contact text-center">
+                    <h1>Message Us</h1>
+                </div>
+                <div class="row py-5">
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <p><span><i class="bi bi-geo-alt"></i></span><b> Location:</b> Bangladesh</p>
+                            </div>
+                            <div class="Email">
+                                <p><i class="bi bi-envelope"></i><b> Email:</b> munna@gmail.com</p>
+                            </div>
+                            <div class="call">
+                                <p><i class="bi bi-phone"></i> <b> Call:</b> 012345678</p>
+                            </div>
+                            <div class="address">
+                                <p><span><i class="bi bi-geo-alt"></i></span><b> Location:</b> Bangladesh</p>
+                            </div>
+                            <div class="Email">
+                                <p><i class="bi bi-envelope"></i><b> Email:</b> munna@gmail.com</p>
+                            </div>
+                            <div class="call">
+                                <p><i class="bi bi-phone"></i> <b> Call:</b> 012345678</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name" required><br>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name" required><br>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email" required><br>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password" required><br>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="Message" class="form-control" id="message" cols="10"
+                                    rows="5"></textarea><br>
+                            </div>
+                            <div class="form-group text-center">
+                                <input class="button" type="submit" value="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--footer star-->
+    <section id="footer-top" class="footer-top">
+        <div class="container py-5">
+            <div class="footer-area"></div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h4>Useful link</h4>
+                    <ul>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">Terms of services</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">Privacy policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h4>Our services</h4>
+                    <ul>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">Web design</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">Web development</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">Product Management</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">Marketing</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-chevron-right"></i>
+                            <a href="#">Graphic design</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h4>Our Social Network</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis adipisci rerum labore
+                        mollitia possimus culpa sint dolore, debitis repellendus minima.</p>
+                    <span>
+                        <a href="#"><i class="bi bi-facebook" style="color: #3984fa;"></i></a>
+                        <a href="#"><i class="bi bi-instagram" style="color: crimson;"></i></a>
+                        <a href="#"><i class="bi bi-twitter" style="color: aqua;"></i></a>
+                        <a href="#"><i class="bi bi-linkedin" style="color: green;"></i></a>
+                        <a href="#"><i class="bi bi-youtube" style="color: red;"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer section-->
+    <section id="footer">
+        <div class="footer-area text-center bg-primary">
+            <p>&copy;copyright:Allright reserved design by BootstrapMade</p>
+        </div>
+    </section>
+
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- CounterUp2 -->
+  <script src="https://unpkg.com/counterup2@2.0.2/dist/index.js">	</script>
+
+
+    <!--main js link-->
+    <script src="asstes/js/main.js"></script>
+</body>
+
+</html>
